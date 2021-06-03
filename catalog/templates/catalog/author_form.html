@@ -1,0 +1,17 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+
+  {% comment %} <h1>Update Author</h1> {% endcomment %}
+
+  <form action="" method="post">
+    {% csrf_token %}
+
+    <table>
+      {{ form.as_table }}
+    </table>
+
+    <input type="submit" value="Submit">
+
+  </form>
+{% endblock %}

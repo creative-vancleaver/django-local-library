@@ -1,0 +1,25 @@
+h1 {
+  margin-top: 20px;
+}
+
+p {
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+li {
+  font-size: 20px;
+  padding: 3px;
+}
+
+li a {
+  font-size: 16px;
+  padding: 0;
+}
+
+.sidebar-nav {
+  margin-top: 20px;
+  margin-left: 0;
+  padding: 0;
+  list-style: none;
+}
